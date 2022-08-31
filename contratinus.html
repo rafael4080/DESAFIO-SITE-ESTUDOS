@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SpaceX</title>
+</head>
+<header>
+  <nav>
+  <a href="index.html">
+    <img src="IMG/logo.png">
+  </a>|
+   <a href="naves.html">TheSpaceships</a>|
+   <a href="contratinus.html">Hire Us</a>
+</nav>
+<hr>
+</header>
+<body>
+  <section><!--Seção-->
+    <h1>Hare Us Now</h1>
+    <p>Leave a menssage to request one of our service and we will gt back to yuo a soon apossible</p>
+  </section>
+  <br>
+  <section>
+<form> <!---Form-->
+      <div>
+      <label for="name">Nome:</label> 
+      <input type ="text"  id="name"   name="name">-<!--O Id deverá ser igual ao do label ou associado -->
+      <label for="email">Email</label>
+      <input type ="email" id="email" ><!--O Id deverá ser igual ao do label ou associado -->
+    </div>
+<br>
+    <div><!------------------->
+      <label for="spaceships">Spaceships</label>
+      <select name="spaceships" id="spaceships">
+         <option value="falco-9">Falco 9</option>
+         <option value="falco-reavy">Falco reavy</option>
+        </select>
+        <label for="service">Type of service</label>
+        <input type="search" name="service" id="service" list="services">
+        <datalist id="services">
+          <option value="Sapato"></option>
+          <option value="Calça"></option>
+          <option value="Tênis"></option>
+         <option value="Cinto"></option>
+         <option value="Meia"></option>
+         <option value="Camisa"></option>
+        </datalist>
+    </div>
+    <br>
+    <div>
+      <input type="submit" value="send message">
+    </div>
+</form>
+ </section>
+</body>
+</html>
